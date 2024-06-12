@@ -4,3 +4,8 @@ Elige un tema de la página de emojis proporcionado y reproduce la siguiente ima
 
 Extra:
 Utilizando javascript haz que vayan apareciendo y desapareciendo de uno en uno. OJO: Deberían siempre aparecer en el mismo lugar
+
+prototipo dado:
+
+
+<img src="./Captura de pantalla 2024-06-12 181259.png">
