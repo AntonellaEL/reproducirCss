@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Distribuye uniformemente los elementos en cada fila */
+    margin: 5%;
+    align-items: center;
+}
+
+.flex-container > div {
+
+    width: calc(25% - 20px);
+    margin-bottom: 20px; 
+    margin-right: 5px;
+    padding: 2px;
+    text-align: center;
+    line-height: 1.2; 
+    font-size: 150px;
+}
+#ama{
+    background-color: #f7bc53
+}
+#azu{
+   background-color: #56c4fb;  
+}
+#ros{
+    background-color: #db4e5a;
+}
+#ver{
+    background-color: #1bbc9d ;
+}
