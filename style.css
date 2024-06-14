@@ -1,30 +1,46 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Distribuye uniformemente los elementos en cada fila */
+    justify-content: flex-start; 
     margin: 5%;
     align-items: center;
 }
 
 .flex-container > div {
-
     width: calc(25% - 20px);
     margin-bottom: 20px; 
     margin-right: 5px;
     padding: 2px;
     text-align: center;
     line-height: 1.2; 
-    font-size: 150px;
+    font-size: 10vw;
 }
-#ama{
-    background-color: #f7bc53
+
+#ama {
+    background-color: #f7bc53;
 }
-#azu{
-   background-color: #56c4fb;  
+
+#azu {
+    background-color: #56c4fb;
 }
-#ros{
+
+#ros {
     background-color: #db4e5a;
 }
-#ver{
-    background-color: #1bbc9d ;
+
+#ver {
+    background-color: #1bbc9d;
+}
+
+
+@media (max-width: 768px) {
+    .flex-container > div {
+        font-size: 8vw; 
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-container > div {
+        font-size: 6vw; 
+    }
 }
